@@ -1,0 +1,66 @@
+/* Stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html,
+body,
+[class*='css'] {
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+}
+
+.main {
+  background-color: #b3e6df;
+}
+
+.css-10trblm {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.css-183lzff {
+  color: #fcb51a;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.css-1bxbv6i {
+  background-color: #fcb51a;
+}
+
+#MainMenu {
+  visibility: hidden;
+}
+footer {
+  visibility: hidden;
+}
+
+.css-18ni7ap {
+  background-color: #343434;
+}
+
+.css-1wrcr25 {
+  background-color: #115e61;
+}
+
+.css-fblp2m {
+  color: #ffffff;
+}
+
+/* For Sidebar */
+section[data-testid='stSidebar'] {
+  background-color: #fcb51a;
+  border-right: solid 4px #343434;
+}
+
+section[data-testid='stSidebar'] .css-183lzff {
+  color: #343434;
+}
+
+.edgvbvh5 {
+  background-color: #343434;
+}
