@@ -64,7 +64,7 @@ if st.session_state['-DISH-']:
             api_url = 'https://api.api-ninjas.com/v1/recipe?query={}'.format(
                 query)
             response = requests.get(
-                api_url, headers={'X-Api-Key': '3F0UXHsxd+xEzMYD9I1/Ow==yoFuk0DEiPYombQG'})
+                api_url, headers={'X-Api-Key': st.secrets["APIKEY"]})
             if response.status_code == requests.codes.ok:
                 # access JSOn content
                 jsonResponse = response.json()
