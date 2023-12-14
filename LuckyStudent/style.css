@@ -1,0 +1,18 @@
+/* Stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+html,
+body,
+[class*='css'] {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  background-color: #d8d8d8;
+}
+
+img {
+  margin: 10px 20px;
+  box-shadow: 5px 5px 5px #ccc;
+}
